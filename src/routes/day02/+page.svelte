@@ -6,14 +6,6 @@
     const ans = katex.renderToString('S = (2, 12)')
 </script>
 
-<p>
-    Diese beiden Funktionen haben einen gemeinsamen Punkt. Bestimmen Sie
-diesen.
-</p>
-<p>{@html f}</p>
-<p>{@html g}</p>
-<div class="answer">Antwort: <span>{@html ans}</span></div>
-
 <style>
 
 .answer {
@@ -31,4 +23,15 @@ diesen.
 }
 
 </style>
+
+<div>
+<p>
+    Diese beiden Funktionen haben einen gemeinsamen Punkt. Bestimmen Sie
+diesen.
+</p>
+<p>{@html f}</p>
+<p>{@html g}</p>
+<div class="answer">Antwort: <span>{@html ans}</span></div>
+</div>
+
 
