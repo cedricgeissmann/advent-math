@@ -15,6 +15,9 @@ import { base } from "$app/paths";
     <li>
       <a href="{base}/day03">Tag 3</a>
     </li>
+    <li>
+      <a href="{base}/day04">Tag 4</a>
+    </li>
   </ul>
 </nav>
 
