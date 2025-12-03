@@ -12,7 +12,7 @@ const output = katex.renderToString(`f(x) = ${m} \\cdot x ${b < 0 ? "" : "+"} ${
 let value = calc(input)
 
 function calc(x) {
-    return m * x - b;
+    return m * x + b;
 }
 
     const applyFunction = (e) => {
