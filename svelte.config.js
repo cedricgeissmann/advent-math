@@ -6,8 +6,8 @@ export default {
   preprocess: vitePreprocess(),
   kit: {
     adapter: adapter({
-      pages: "docs",
-      assets: "docs",
+      pages: "build",
+      assets: "build",
       fallback: undefined,
       precompress: false,
       strict: true,
