@@ -3,7 +3,7 @@
     const f = katex.renderToString('f(x) = \\frac{1}{6} \\cdot x',
         {displayMode: true})
     const g = katex.renderToString('g(x) = -2 \\cdot x + 26')
-    const ans = katex.renderToString('S = (2, 12)')
+    const ans = katex.renderToString('S = (12, 2)')
 </script>
 
 <style>
